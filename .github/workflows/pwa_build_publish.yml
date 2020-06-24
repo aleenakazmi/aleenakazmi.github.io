@@ -28,7 +28,7 @@ jobs:
         git config --global user.email s.aleenakazmi@gmail.com
         git config --global user.name aleenakazmi
         git status
-        git remote add origin https://${{secrets.commit_secret}}@github.com/aleenakazmi/flutterform.github.io.git
+        git remote add origin https://${{secrets.commit_secret}}@github.com/aleenakazmi/aleenakazmi.github.io.git
         git checkout -b master
         git add --all
         git commit -m "update website"
