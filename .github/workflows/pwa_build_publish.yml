@@ -29,7 +29,7 @@ jobs:
         git config --global user.name aleenakazmi
         git status
         git remote add origin https://${{secrets.commit_secret}}@github.com/aleenakazmi/flutterform.git
-        git checkout -b master
+        git checkout -b gh-pages
         git add --all
-        git commit -m "update website"
-        git push origin master -f
+        git commit -m "update"
+        git push origin gh-pages -f
